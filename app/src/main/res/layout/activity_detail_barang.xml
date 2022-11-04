@@ -9,21 +9,22 @@
 
     <ImageView
         android:id="@+id/imgBarang"
-        android:src="@drawable/ic_bike"
+        android:src="@drawable/ic_profil"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="100dp"
         tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/tvBarang"
         android:layout_below="@+id/imgBarang"
         android:layout_margin="10dp"
-        android:text="Lorem Ipsum"
+        android:text="Kompas"
         android:textSize="30sp"
         android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:ignore="HardcodedText" />
+
 
     <TextView
         android:id="@+id/tvLabel_deskripsi"
@@ -40,10 +41,9 @@
         android:id="@+id/tvDeskripsi"
         android:layout_below="@+id/tvLabel_deskripsi"
         android:layout_margin="10dp"
-        android:text="@string/lorem"
+        android:text="@string/Kompas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
     <ImageButton
         android:id="@+id/btnKeranjang"
         android:src="@drawable/ic_cart"
@@ -72,5 +72,3 @@
         android:layout_toStartOf="@+id/btnKeranjang"
         android:layout_height="70dp"
         tools:ignore="HardcodedText" />
-
-</RelativeLayout>
